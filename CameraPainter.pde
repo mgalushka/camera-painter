@@ -35,7 +35,7 @@ void draw() {
       opencv.convert( OpenCV.GRAY );  //  Converts the difference image to greyscale
       opencv.blur( OpenCV.BLUR, 3 );  //  I like to blur before taking the difference image to reduce camera noise
       opencv.threshold(20);    // set black & white threshold 
-      image( opencv.image(), 0, 0 );  
+      //image( opencv.image(), 0, 0 );  
       background(255);
       
       /*
